@@ -101,7 +101,7 @@ ul {
 }
 
 .site-nav-list .current::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 100%;
@@ -160,8 +160,12 @@ ul {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/backround.jpg');
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/backround.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -285,6 +289,32 @@ ul {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.works-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.works-description {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--backround-color);
 }
 
 /* Команда */
