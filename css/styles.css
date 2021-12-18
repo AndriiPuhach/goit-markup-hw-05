@@ -575,6 +575,9 @@ ul {
   padding: 6px 22px;
   border: transparent;
   border-radius: 4px;
+  transition: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: var(--time-function);
 }
 
 .filter-item:not(:last-child):not(:last-child) {
@@ -603,6 +606,7 @@ ul {
 .examples-link {
   text-decoration: none;
   display: block;
+  transition: box-shadow 250ms var(--time-function);
 }
 
 .examples-link:hover,
