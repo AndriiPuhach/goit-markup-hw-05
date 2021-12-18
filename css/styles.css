@@ -88,6 +88,7 @@ ul {
   display: block;
   padding: 32px 0px;
   position: relative;
+  transition: color 250ms var(--time-function);
 }
 
 .site-nav-item:not(:last-child),
@@ -131,6 +132,7 @@ ul {
   text-decoration: none;
   padding: 32px 0px;
   align-items: center;
+  transition: color 250ms var(--time-function);
 }
 
 .contacts-item {
@@ -374,6 +376,8 @@ ul {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  transition: color 250ms var(--time-function),
+    background-color 250ms var(--time-function);
 }
 
 .social-network {
@@ -434,6 +438,8 @@ ul {
   align-items: center;
   justify-content: center;
   fill: currentColor;
+  transition: fill 250ms var(--time-function),
+    border-color 250ms var(--time-function);
 }
 
 .clients-link:hover,
@@ -530,6 +536,7 @@ ul {
   fill: currentColor;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms var(--time-function);
 }
 
 .footer-socials-link:hover,
